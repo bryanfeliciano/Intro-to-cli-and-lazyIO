@@ -1,0 +1,9 @@
+mapM Takes an IO action and a regular list, performing the action on each item in the list,
+and returning a list in the IO context.
+
+mapM_ Same as mapM, but it throws away the values (note the underscore).
+
+replicateM Takes an IO action, an Int n, and then repeats the IO action n times, returning the
+results in an IO list.
+
+replicateM_ Same as replicateM, but it throws away the results
